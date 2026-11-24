@@ -1,0 +1,19 @@
+# WordPress config (contains DB credentials and auth salts)
+wp-config.php
+
+# Backups (contains >100MB zips and database dumps)
+wp-content/updraft/
+
+# Cache, logs, and temporary upgrade directories
+wp-content/cache/
+wp-content/wflogs/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/debug.log
+php_errorlog
+*.log
+
+# Office lock files & OS metadata
+~$*
+.DS_Store
+Thumbs.db
